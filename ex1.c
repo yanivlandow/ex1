@@ -46,7 +46,7 @@ int main() {
     printf("%d",check);
 
     // 3, 5, 7, 11
-    printf("\n3 ,5 ,7 ,11\n");
+    printf("\n3, 5, 7, 11\n");
     int octal1,octal2,sum;
     printf("Please enter the first number (octal):\n");
     scanf("%o",&octal1);
