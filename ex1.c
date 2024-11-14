@@ -11,18 +11,18 @@ int main() {
     ///////What Bit
     printf("What Bit:\n");
     int num,pos,x = 0 ;
-    printf("Plesae enter a number:\n");
+    printf("Please enter a number:\n");
     scanf("%d",&num);
-    printf("Plesae enter a position:\n");
+    printf("Please enter a position:\n");
     scanf("%d",&pos);
     x=(num>>pos)&1;
     printf("The bit in position %d of number %d is: %d\n",pos,num,x);
     //////Set Bit
     printf("Set bit:\n");
     int num2,pos2,y1,y2= 0;
-    printf("Plesae enter a number:\n");
+    printf("Please enter a number:\n");
     scanf("%d",&num2);
-    printf("Plesae enter a position:\n");
+    printf("Please enter a position:\n");
     scanf("%d",&pos2);
     y1=num2|(1<<pos2);
     y2=num2&(~(1<<pos2));
@@ -31,26 +31,26 @@ int main() {
     ///////////Toggle Bit
     printf("Toggle bit:\n");
     int num3,pos3,toggle;
-    printf("Plesae enter a number:\n");
+    printf("Please enter a number:\n");
     scanf("%d",&num3);
-    printf("Plesae enter a position:\n");
+    printf("Please enter a position:\n");
     scanf("%d",&pos3);
     toggle=num3^(1<<pos3);
     printf("Number with bit %d toggled: %d\n",pos3,toggle);
     //////even-odd
-    printf("Even - odd\n");;
+    printf("Even - Odd\n");;
     int num4,check;
-    printf("\nPlesae enter a number:\n");
+    printf("\nPlease enter a number:\n");
     scanf("%d",&num4);
     check=(num4&1)^1;
     printf("%d",check);
 
     // 3, 5, 7, 11
-    printf("\n3,5,7,11\n");
+    printf("\n3 ,5 ,7 ,11\n");
     int octal1,octal2,sum;
-    printf("Plesae enter the first number (octal):\n");
+    printf("Please enter the first number (octal):\n");
     scanf("%o",&octal1);
-    printf("Plesae enter the second number (octal):\n");
+    printf("Please enter the second number (octal):\n");
     scanf("%o",&octal2);
     sum=octal1+octal2;
     printf("The sum in hexadecimal: %X\n",sum);
