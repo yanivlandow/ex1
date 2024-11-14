@@ -64,7 +64,7 @@ int main() {
     shift7=(sum>>7)&1;
     shift11=(sum>>11)&1;
     ;
-    printf("The 3,5,7,11 bits are:%d%d%d%d\n",shift3,shift5,shift7,shift11);
+    printf("The 3,5,7,11 bits are: %d%d%d%d\n",shift3,shift5,shift7,shift11);
     printf("Bye!\n");
 
     return 0;
