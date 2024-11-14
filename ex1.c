@@ -9,7 +9,7 @@ Assignment:mesima 2
 
 int main() {
     ///////What Bit
-    printf("What Bit:\n");
+    printf("What bit:\n");
     int num,pos,x = 0 ;
     printf("Please enter a number:\n");
     scanf("%d",&num);
@@ -38,7 +38,7 @@ int main() {
     toggle=num3^(1<<pos3);
     printf("Number with bit %d toggled: %d\n",pos3,toggle);
     //////even-odd
-    printf("Even - Odd\n");;
+    printf("Even - Odd:\n");;
     int num4,check;
     printf("\nPlease enter a number:\n");
     scanf("%d",&num4);
@@ -46,7 +46,7 @@ int main() {
     printf("%d",check);
 
     // 3, 5, 7, 11
-    printf("\n3, 5, 7, 11\n");
+    printf("\n3, 5, 7, 11:\n");
     int octal1,octal2,sum;
     printf("Please enter the first number (octal):\n");
     scanf("%o",&octal1);
